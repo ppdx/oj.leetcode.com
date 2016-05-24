@@ -15,7 +15,7 @@ TreeNode* deserialize(string s)
 	while (true)
 	{
 		while (s[i] == ' ' || s[i] == ',')
-			i++; // scape space & `,'
+			i++; // escape space & `,'
 		if (s[i] == ']') break;
 		if (s[i] == 'n')
 		{
